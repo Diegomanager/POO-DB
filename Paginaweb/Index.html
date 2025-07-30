@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <head>
+        <div class="logo">
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+    </head>
+    <h1>Agregar productos al carrito</h1>
+
+    <div class="producto">
+        <label for="producto">Producto:</label>
+        <select id="producto">
+            <option value="0">Camiseta - $20</option>
+            <option value="1">Pantalón - $40</option>
+            <option value="2">Zapatos - $60</option>
+        </select>
+    </div>
+
+    <div class="producto">
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" min="1" value="1">
+    </div>
+
+    <button onclick="agregarAlCarrito()">Agregar al carrito</button>
+
+    <p class="mensaje" id="mensaje"></p>
+
+    <div id="carrito">
+        <h2>Contenido del carrito</h2>
+        <ul id="lista-carrito"></ul>
+        <p><strong>Total:</strong> $<span id="total">0</span></p>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>

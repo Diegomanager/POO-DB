@@ -1,0 +1,32 @@
+/* Fondo suave para la página */
+body {
+    background: #f8f9fa;
+}
+
+/* Sombra y bordes redondeados para la tarjeta principal */
+.card {
+    border-radius: 1rem;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+/* Logo centrado y con margen */
+.logo {
+    margin-bottom: 1rem;
+}
+
+/* Mensaje de error más visible */
+.mensaje {
+    font-size: 1.1rem;
+}
+
+/* Lista del carrito más separada */
+#lista-carrito .list-group-item {
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+/* Botón principal más grande */
+.btn-primary {
+    font-size: 1.1rem;
+    padding: 0.75rem 1.5rem;
+}
